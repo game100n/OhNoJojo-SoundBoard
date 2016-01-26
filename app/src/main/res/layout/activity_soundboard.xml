@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scrollview1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TableLayout
+        android:id="@+id/tablelayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+
+        <Button
+            android:id="@+id/sound1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ohhh Nooo"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uhhh nooo"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ohhh Nooo (smack)"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ohhh Nooooooo (smacks)"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oh Noo"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oohh No"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ouh Gud da"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ohh noo"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oh Goodddd"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="oh nuuu"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oh MY Goddd"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="woah NOOOO"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OH Shettt"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oh my god"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oh MY Godd"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uhh my goddddd"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whory Sheett"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whory Shet"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O my godd"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="oh my GODDDDDD"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="oh my GODDDDDD (Bang)"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oh My God (Multi-Seg)"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whory Shet (pew)"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help Me, Oh my Gahhh"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun of the bih"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oh my gahhh"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uhh my guhhh"
+            >
+        </Button>
+        <Button
+            android:id="@+id/sound28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Son of the Bitch"
+            >
+        </Button>
+
+    </TableLayout>
+</ScrollView>
