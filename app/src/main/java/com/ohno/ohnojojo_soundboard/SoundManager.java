@@ -14,7 +14,7 @@ import android.util.SparseIntArray;
  */
 public class SoundManager
 {
-    private static SoundManager instance =null;
+    private static SoundManager instance = null;
 
     private  SoundPool mSoundPool;
     //private  HashMap<Integer, Integer> mSoundPoolMap;
@@ -35,8 +35,9 @@ public class SoundManager
 
     public static SoundManager getInstance(Context theContext)
     {
-        if(instance==null){
-            instance=new SoundManager(theContext);
+        if(instance == null)
+        {
+            instance = new SoundManager(theContext);
             instance.addSound(1, R.raw.sound1);
             instance.addSound(2, R.raw.sound2);
             instance.addSound(3, R.raw.sound3);
