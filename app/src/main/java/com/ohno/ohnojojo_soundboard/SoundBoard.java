@@ -22,7 +22,9 @@ public class SoundBoard extends Activity
 
         setContentView(R.layout.activity_soundboard);
 
-        mSoundManager = new SoundManager();
+        //mSoundManager = new SoundManager();
+        mSoundManager = SoundManager.getInstance();
+        /*
         mSoundManager.initSounds(getBaseContext());
         mSoundManager.addSound(1, R.raw.sound1);
         mSoundManager.addSound(2, R.raw.sound2);
@@ -52,6 +54,7 @@ public class SoundBoard extends Activity
         mSoundManager.addSound(26, R.raw.sound26);
         mSoundManager.addSound(27, R.raw.sound27);
         mSoundManager.addSound(28, R.raw.sound28);
+        */
 
 
         Button SoundButton1 = (Button) findViewById(R.id.sound1);
