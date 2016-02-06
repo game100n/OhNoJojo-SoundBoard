@@ -7,6 +7,7 @@ import android.media.AudioAttributes;
 import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Build;
+import android.util.Log;
 import android.util.SparseIntArray;
 
 /**
@@ -35,6 +36,7 @@ public class SoundManager
 
     public static SoundManager getInstance(Context theContext)
     {
+        Log.d("TAG", "getInstance");
         if(instance == null)
         {
             instance = new SoundManager(theContext);
