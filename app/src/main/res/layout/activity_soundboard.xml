@@ -3,7 +3,7 @@
     android:id="@+id/scrollview1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@color/black"
+    android:background="@color/grey"
     xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
@@ -19,6 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ohhh Nooo"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -26,6 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="uhhh nooo"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -33,6 +37,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ohhh Nooo (smack)"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -40,6 +46,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ohhh Nooooooo (smacks)"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -47,6 +55,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Oh Noo"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -54,6 +64,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Oohh No"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -61,6 +73,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ouh Gud da"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -68,6 +82,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Ohh noo"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -75,6 +91,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Oh Goodddd"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -82,6 +100,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="oh nuuu"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -89,6 +109,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Oh MY Goddd"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -96,6 +118,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="woah NOOOO"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -103,6 +127,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="OH Shettt"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -110,6 +136,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Oh my god"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -117,6 +145,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Oh MY Godd"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -124,6 +154,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Uhh my goddddd"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -131,6 +163,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Whory Sheett"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -138,6 +172,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Whory Shet"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -145,6 +181,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="O my godd"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -152,6 +190,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="oh my GODDDDDD"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -159,6 +199,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="oh my GODDDDDD (Bang)"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -166,6 +208,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Oh My God (Multi-Seg)"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -173,6 +217,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Whory Shet (pew)"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -180,6 +226,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Help Me, Oh my Gahhh"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -187,6 +235,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sun of the bih"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -194,6 +244,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Oh my gahhh"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -201,6 +253,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Uhh my guhhh"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
         <Button
@@ -208,6 +262,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Son of the Bitch"
+            android:textColor="@color/window_background"
+            android:theme="@style/MyButton"
             >
         </Button>
 

@@ -1,7 +1,5 @@
 package com.ohno.ohnojojo_soundboard;
 
-//import java.util.HashMap;
-
 import android.content.Context;
 import android.media.AudioAttributes;
 import android.media.AudioManager;
@@ -18,7 +16,6 @@ public class SoundManager
     private static SoundManager instance = null;
 
     private  SoundPool mSoundPool;
-    //private  HashMap<Integer, Integer> mSoundPoolMap;
     private  SparseIntArray mSoundPoolMap;
     private  AudioManager  mAudioManager;
     private  Context mContext;
@@ -28,8 +25,6 @@ public class SoundManager
     {
         mContext = theContext;
         buildSoundPool();
-        //mSoundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
-        //mSoundPoolMap = new HashMap<Integer, Integer>();
         mSoundPoolMap = new SparseIntArray();
         mAudioManager = (AudioManager)mContext.getSystemService(Context.AUDIO_SERVICE);
     }
@@ -73,13 +68,6 @@ public class SoundManager
     }
 
 
-    /*
-    public SoundManager()
-    {
-
-    }
-    */
-
     @SuppressWarnings("deprecation")
     private SoundPool buildSoundPool()
     {
@@ -100,12 +88,6 @@ public class SoundManager
             mSoundPool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
         }
         return mSoundPool;
-    }
-
-
-
-    public void initSounds()
-    {
     }
 
     public void addSound(int Index,int SoundID)

@@ -6,7 +6,6 @@ import android.graphics.drawable.AnimationDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.widget.ImageView;
 
 /**
@@ -19,19 +18,9 @@ public class SplashScreen extends Activity
 
     private class AsyncLoad extends AsyncTask<Integer, Integer, String>
     {
-        /*
-        @Override
-        protected void onPreExecute()
-        {
-            Log.d("TAG", "onPreExecute");
-            SoundManager.getInstance(getBaseContext());
-        }
-        */
-
         @Override
         protected String doInBackground(Integer... params)
         {
-            Log.d("TAG", "doInBackground");
             SoundManager.getInstance(getBaseContext());
             return "Finished Loading Files";
         }
@@ -39,7 +28,6 @@ public class SplashScreen extends Activity
         @Override
         protected void onPostExecute(String result)
         {
-            Log.d("TAG", "PostExecute");
             startActivity(new Intent(SplashScreen.this, SoundBoard.class));
             finish();
         }
@@ -47,8 +35,7 @@ public class SplashScreen extends Activity
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
@@ -66,8 +53,19 @@ public class SplashScreen extends Activity
         });
 
         new AsyncLoad().execute();
+    }
+
+    @Override
+    protected void onPause()
+    {
+        // TODO Auto-generated method stub
+        super.onPause();
+        finish();
+    }
+}
 
 
+        //WENT IN ONCREATE
         //METHOD 1
         /*
         Thread timerThread = new Thread()
@@ -114,13 +112,4 @@ public class SplashScreen extends Activity
         }, 3*1000); // wait for 3 seconds
         */
 
-    }
 
-    @Override
-    protected void onPause()
-    {
-        // TODO Auto-generated method stub
-        super.onPause();
-        finish();
-    }
-}
