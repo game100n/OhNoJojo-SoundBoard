@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android"
     android:oneshot="false">
-    <item android:drawable="@drawable/img_01" android:duration="100" />
-    <item android:drawable="@drawable/img_02" android:duration="100" />
-    <item android:drawable="@drawable/img_03" android:duration="100" />
-    <item android:drawable="@drawable/img_04" android:duration="100" />
-    <item android:drawable="@drawable/img_05" android:duration="100" />
-    <item android:drawable="@drawable/img_06" android:duration="100" />
-    <item android:drawable="@drawable/img_07" android:duration="100" />
-    <item android:drawable="@drawable/img_08" android:duration="100" />
-    <item android:drawable="@drawable/img_09" android:duration="100" />
+    <item android:drawable="@drawable/tmp_0" android:duration="80" />
+    <item android:drawable="@drawable/tmp_1" android:duration="80" />
+    <item android:drawable="@drawable/tmp_2" android:duration="80" />
+    <item android:drawable="@drawable/tmp_3" android:duration="80" />
+    <item android:drawable="@drawable/tmp_4" android:duration="80" />
+    <item android:drawable="@drawable/tmp_5" android:duration="80" />
+    <item android:drawable="@drawable/tmp_6" android:duration="80" />
+    <item android:drawable="@drawable/tmp_7" android:duration="80" />
+    <item android:drawable="@drawable/tmp_8" android:duration="80" />
+    <item android:drawable="@drawable/tmp_9" android:duration="80" />
+    <item android:drawable="@drawable/tmp_10" android:duration="80" />
+    <item android:drawable="@drawable/tmp_11" android:duration="80" />
+    <item android:drawable="@drawable/tmp_12" android:duration="80" />
+    <item android:drawable="@drawable/tmp_13" android:duration="80" />
+    <item android:drawable="@drawable/tmp_14" android:duration="80" />
+    <item android:drawable="@drawable/tmp_15" android:duration="80" />
+    <item android:drawable="@drawable/tmp_16" android:duration="80" />
+    <item android:drawable="@drawable/tmp_17" android:duration="80" />
+    <item android:drawable="@drawable/tmp_18" android:duration="80" />
+    <item android:drawable="@drawable/tmp_19" android:duration="80" />
 </animation-list>

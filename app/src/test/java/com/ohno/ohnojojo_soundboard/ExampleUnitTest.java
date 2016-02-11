@@ -1,4 +1,4 @@
-package com.ohno.ohnojojo_soundboard;
+package com.soundboard.joseph;
 
 import org.junit.Test;
 

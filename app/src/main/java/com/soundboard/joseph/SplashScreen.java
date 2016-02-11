@@ -1,11 +1,10 @@
-package com.ohno.ohnojojo_soundboard;
+package com.soundboard.joseph;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
 import android.widget.ImageView;
 
 /**

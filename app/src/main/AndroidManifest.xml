@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ohno.ohnojojo_soundboard"
+    package="com.soundboard.joseph"
     android:versionCode="1"
     android:versionName="1">
 
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashScreen"
+            android:name="com.soundboard.joseph.SplashScreen"
             android:label="@string/title_activity_soundboard"
             android:screenOrientation="portrait">
 
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SoundBoard"
+        <activity android:name="com.soundboard.joseph.SoundBoard"
             android:label="@string/title_activity_soundboard"
             android:screenOrientation="portrait">
             <intent-filter>
